@@ -83,11 +83,11 @@ Here’s an example of how a small perturbation can change the model's predictio
 
 - **Original Image (Prediction: Cat)**
 
-  ![Original Image](original.png)
+  ![Original Image](images/original.png)
 
 - **Adversarial Image (Prediction: Horse)**
 
-  ![Adversarial Image](adversarial.png)
+  ![Adversarial Image](images/adversarial.png)
 
 Though the images look nearly identical to a human observer, the model is fooled into making an incorrect prediction. This showcases the power of adversarial attacks and highlights how subtle changes can lead to drastically different outputs.
 
@@ -100,7 +100,7 @@ Though the images look nearly identical to a human observer, the model is fooled
 - **FGSM is a fast and efficient method** for creating adversarial examples. It uses gradients to determine which pixels to modify in a way that confuses the model.
 - **Epsilon is critical**: Even small changes in epsilon can drastically change the model’s performance. This shows how sensitive neural networks are to small perturbations in the input.
 
-![Accuracy vs Epsilon](accuracy_vs_epsilon.png)
+![Accuracy vs Epsilon](testing/accuracy_vs_epsilon.png)
 
 ### How is this useful?
 Understanding adversarial attacks is crucial in the field of **AI security**. As machine learning models are increasingly used in critical systems (healthcare, security, autonomous driving), being aware of these vulnerabilities allows developers and researchers to design **more robust and secure AI systems**. 
@@ -127,4 +127,4 @@ Thank you so much for taking the time to explore this project! 🙏
 ---
 
 ### Let’s connect!
-[Your LinkedIn](https://www.linkedin.com/in/jos%C3%A9-eduardo-santos-rabelo-296239234/)
+[LinkedIn](https://www.linkedin.com/in/jos%C3%A9-eduardo-santos-rabelo-296239234/)
