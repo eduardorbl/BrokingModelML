@@ -73,7 +73,7 @@ This project taught me:
 
 The **epsilon** parameter in FGSM controls the intensity of the perturbation added to the input images. A higher epsilon means more noticeable changes, which makes it easier to fool the model. Below is the graph showing how the model’s accuracy declines as epsilon increases:
 
-![Accuracy vs Epsilon](accuracy_vs_epsilon.png)
+![Accuracy vs Epsilon](testing/accuracy_vs_epsilon.png)
 
 As we can see, when epsilon is **0** (no perturbation), the model performs well, but as we increase epsilon, the accuracy drops significantly. Even small perturbations (like epsilon = 0.01) can cause a major accuracy drop, showing how vulnerable machine learning models are to adversarial attacks.
 
@@ -100,7 +100,6 @@ Though the images look nearly identical to a human observer, the model is fooled
 - **FGSM is a fast and efficient method** for creating adversarial examples. It uses gradients to determine which pixels to modify in a way that confuses the model.
 - **Epsilon is critical**: Even small changes in epsilon can drastically change the model’s performance. This shows how sensitive neural networks are to small perturbations in the input.
 
-![Accuracy vs Epsilon](testing/accuracy_vs_epsilon.png)
 
 ### How is this useful?
 Understanding adversarial attacks is crucial in the field of **AI security**. As machine learning models are increasingly used in critical systems (healthcare, security, autonomous driving), being aware of these vulnerabilities allows developers and researchers to design **more robust and secure AI systems**. 
