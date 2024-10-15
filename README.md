@@ -37,8 +37,8 @@ This project taught me:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/adversarial-attack-cifar10.git
-    cd adversarial-attack-cifar10
+    git clone https://github.com/eduardorbl/BrokingModelML.git
+    cd BrokingModelML
     ```
 
 2. **Install dependencies**:
